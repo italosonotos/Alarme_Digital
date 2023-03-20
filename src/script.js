@@ -1,6 +1,6 @@
-function Relogio(){
-   
-   
+function Relogio() {
+
+
     let data = new Date();
     let hora = data.getHours();
     let minuto = data.getMinutes();
@@ -13,3 +13,11 @@ function Relogio(){
 }
 
 setInterval(Relogio, 500);
+
+function acionarAlarme() {
+    let valorAlarme = document.getElementById('hora');
+
+
+    alert(`Hora Adiconada ${valorAlarme.value}`);
+
+}

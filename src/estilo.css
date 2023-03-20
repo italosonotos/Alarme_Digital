@@ -3,10 +3,6 @@
     padding: 0;
 }
 
-body{
-    background-color: black;
-}
-
 main{
     width: 100%;
     height: 180px;
@@ -28,10 +24,6 @@ main{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.display{
-    border-bottom: 10px solid black;
-    background-color: white;
-}
 
 .material-symbols-outlined {
     font-size: 5rem;
@@ -62,3 +54,4 @@ button:hover{
     background-color: white;
     transition: .2s;
 }
+
